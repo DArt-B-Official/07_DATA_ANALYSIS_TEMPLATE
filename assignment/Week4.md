@@ -5,8 +5,8 @@
 아래의 문제를 풀어보며 학습 내용을 점검하세요. 문제를 해결하는 과정에서 개념을 스스로 정리하고, 필요한 경우 제시된 강의를 참고하여 보완하는 것이 좋습니다.
 
 <!-- 강의 링크는 아래와 같습니다.
-https://www.youtube.com/watch?v=CE3_InvbmLY&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXgS7k&index=6
-https://www.youtube.com/watch?v=hhbzUEQWdTg&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXgS7k&index=7
+https://www.youtube.com/watch?v=HNlRYQnLkek&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXgS7k&index=8
+https://www.youtube.com/watch?v=Cbk_tQtuhbM&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXgS7k&index=9
 -->
 
 
@@ -52,67 +52,12 @@ https://www.youtube.com/watch?v=hhbzUEQWdTg&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 
 ## 문제 1.
 
-> **🧚Q. 다음 두 데이터프레임 df1, df2를 합쳐서 데이터프레임 df3를 만들려고 합니다.**  
-> 적절한 판다스 명령을 선택해주세요.
-
-<table>
-<tr>
-
-<td>
-
-### df1
-
-| index | col1 | col2 |
-|-------|------|------|
-| 0     | x    | 5    |
-| 1     | y    | 6    |
-| 2     | z    | 7    |
-
-</td>
-
-<td>
-
-### df2
-
-| index | col3 | col4 |
-|-------|------|------|
-| 0     | x    | 50   |
-| 1     | y    | 60   |
-| 2     | w    | 70   |
-
-</td>
-
-<td align="center" valign="middle">
-
-<h2> ➜ </h2>
-
-</td>
-
-<td>
-
-### df3 (결과)
-
-| index | col1 | col2 | col3 | col4 |
-|-------|------|------|------|------|
-| 0     | x    | 5.0  | x    | 50.0 |
-| 1     | y    | 6.0  | y    | 60.0 |
-| 2     | z    | 7.0  | NaN  | NaN  |
-| 3     | NaN  | NaN  | w    | 70.0 |
-
-</td>
-
-</tr>
-</table>
+> **🧚Q. 이번 주차에는 확인문제 대신 실습 과제를 진행합니다. 캐글에서 원하는 데이터셋을 선택하여 기술통계를 계산하고, 다양한 시각화를 수행해보세요.
+작업은 코랩에서 진행한 뒤, 코랩 링크를 아래에 첨부해주세요.**
 
 ```
-1️⃣ pd.merge(df1, df2)
-2️⃣ pd.merge(df1, df2, how='left')
-3️⃣ pd.merge(df1, df2, left_on='col1', right_on='col3', how='outer')
-4️⃣ pd.merge(df1, df2, left_on='col1', right_on='col3', how='inner')
-```
-
-```
-여기에 선택한 답과 그 이유를 간단히 서술해주세요!
+여기에 코랩 링크를 첨부해주세요!
+(제출 전, 코랩의 공유 설정을 ‘링크가 있는 모든 사용자가 보기 가능’으로 변경했는지 반드시 확인해주세요.)
 ```
 
 
