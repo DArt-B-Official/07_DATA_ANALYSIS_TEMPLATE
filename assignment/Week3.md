@@ -53,7 +53,7 @@ https://www.youtube.com/watch?v=hhbzUEQWdTg&list=PLVsNizTWUw7FGzSRCkQrPEEe-ljVXg
 ## 문제 1.
 
 > **🧚Q. 다음 두 데이터프레임 df1, df2를 합쳐서 데이터프레임 df3를 만들려고 합니다.**  
-> 적절한 판다스 명령을 작성하세요.
+> 적절한 판다스 명령을 선택해주세요.
 
 <table>
 <tr>
